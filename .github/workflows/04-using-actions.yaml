@@ -8,8 +8,8 @@ jobs:
         steps:
             - name: Checkout Code
               run: |
+                ls -lha
                 cd ../
             - name: Printing Folders
-              run: |
-                ls
+              run: ls -lha
         
