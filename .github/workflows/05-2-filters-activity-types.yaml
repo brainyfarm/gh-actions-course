@@ -9,4 +9,4 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Print Message
-              run: PR is now closed
+              run: echo "PR is now closed"
