@@ -1,5 +1,5 @@
 name: 04 - Using Actions
-run-name: "${{ github.actor }} > ${{ github.action }} >>"
+run-name: "${{ github.actor }} > ${{ github.workflow }} >>"
 on:
     # push:
     workflow_dispatch:
