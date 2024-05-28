@@ -1,8 +1,6 @@
 name: 02 - Workflow Events
 
-on:
-    schedule:
-        - cron: '27 * * * *'
+on: workflow_dispatch
 
 jobs:
     echo:
