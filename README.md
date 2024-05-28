@@ -1,1 +1,1 @@
-Repositoory containing examples..
+Repository containing examples..
