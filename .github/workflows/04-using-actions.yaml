@@ -19,6 +19,14 @@ jobs:
               run: |
                 npm ci
                 npm install
-                
 
-        
+            - name: Run Unit Tests
+              working-directory: ./04-using-actions/react-app
+              run: npm test
+
+            - name: Build Production
+              working-directory: ./04-using-actions/react-app
+              run: npm run build
+
+
+
