@@ -1,1 +1,1 @@
-Repository containing examples.
+Repository containing GH Actions examples.
