@@ -8,7 +8,7 @@ jobs:
         steps:
             - name: Checkout Code
               run: |
-                cd ../../04-using-actions
+                cd ../
             - name: Printing Folders
               run: |
                 ls
