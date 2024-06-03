@@ -34,3 +34,10 @@ jobs:
             - name: Print Repository Variable
               run: |
                  echo "MY_REPO_VAR is ${{ vars.MY_REPO_VAR }}"
+    echo-prod:
+        runs-on: ubuntu-latest
+        environment: prod
+        steps:
+            - name: Print Env Variables
+              run: |
+                    echo "ENV_VAR is ${{ vars.ENV_VAR }}"
